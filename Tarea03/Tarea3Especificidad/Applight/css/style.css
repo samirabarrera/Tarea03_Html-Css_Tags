@@ -1,0 +1,52 @@
+.nav-link:hover {
+    border: solid;
+    color: purple;
+}
+
+h2 {
+    font-weight: 200;
+    }
+
+/*Cambiar el color de w3 template link*/
+section.banner .banner-overlay .container .row .col-md-8.col-sm-12 .banner-text .white a {
+    color: red;
+}
+
+/*Change the color of "Features"*/
+section.feature.section-padding .container .row .col-md-12 .sectioner-header.text-center h3 {
+    color: #8D1EFB;
+}
+
+/*Ponerle color verde a los features*/
+section-content.text-center div.row > div.col-md-4.col-sm-12 .media.single-feature .media-body.text-right .media-right-margin h5 {
+    color: #5EE25A;
+}
+
+/*Cambiarle el borde a los íconos*/
+div.media-right.icon-border span::before {
+    color: #f775b4;
+}
+div.media-left.icon-border span::before{
+    color: #f775b4;
+}
+
+/*Hacerle un cuadro a "Our team" */ 
+section.team.section-padding div.container > div.row > div.col-md-12 > div.sectioner-header.text-center {
+    border: solid 1px;
+    color: #8D1EFB ;
+}
+
+/*Cambiarle el color de fuente a los nombres del team todavía está pendiente*/
+section.content.text-center div.container div.row div.col-md-4 div.team-detail.wow.bounce h4 p {
+    color: #2E74A7;
+}
+
+/*paso 9 subrayar los nombres pero subraya todo*/
+.test-text {
+    text-decoration: underline;
+}
+
+/*cambiarle el color al footer*/
+html body footer.footer-copy div.container-fluid div.row div.col-md-12 p a[href="http://w3Template.com"] {
+    color: #844E41;
+}
